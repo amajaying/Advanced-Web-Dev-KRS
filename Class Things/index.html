@@ -6,14 +6,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KRS Classes</title>
+    <style>
+        .boxes {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            border: 1px solid #3d3d3d;
+            padding: 30px 0;
+        }
+        
+        .box {
+            padding: 10px;
+            background-color: #3d3d3d;
+            height: 20px;
+            width: 20px;
+            color: white;
+        }
+        
+        table {
+            border: 1px solid #3d3d3d;
+        }
+        
+        td {
+            border: 1px solid #3d3d3d;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Event Listener</h1>
+    <h1 class="text">Event Listener</h1>
+    <h1 class="text">Event Listener</h1>
+    <h1 class="text">Event Listener</h1>
+    <h1 class="text">Event Listener</h1>
 
 
+    <div class="boxes">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+
+    <table>
+        <tr>
+            <td>1</td>
+            <td colspan="2">2</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td rowspan="2">5</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+
+    </table>
+
+    <button class="lol" onclick="clicked() ">SUBMIT</button>
     <script>
-        alert("Classes Begin!");
+        function clicked() {
+            var x = document.getElementsByClassName("text");
+            for (var i = 0; i < 5; i++) {
+                x[i].innerHTML = "amajaying";
+            }
+        }
     </script>
 </body>
 

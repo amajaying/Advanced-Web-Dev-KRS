@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login-style.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+
+    <a id="home"></a>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="KRS-LOGO" height="50px">
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="nav-btns">
+            <button class="btn login"><a href="login.html">Log In</a></button>
+            <button class="btn register"><a href="register.html">Register</a></button>
+        </div>
+    </nav>
+
+    <section class="login-page">
+        <form id="myForm">
+            <div class="login-box">
+                <h2>Login Here</h2>
+                <br>
+                <div>
+                    <label for="name">Username</label><br>
+                    <input type="text" name="username" id="name" placeholder="Enter Username">
+                    <div class="error" id="usernameErr"></div><br>
+                </div>
+                <br>
+                <div>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password" placeholder="Enter Password">
+                    <div class="error" id="passwordErr"></div><br>
+                </div>
+        </form>
+        <br>
+        <div class="btns">
+            <button class="btn login" type="button" id="loginButton">Login</button>
+        </div>
+        </div>
+
+    </section>
+
+    <hr>
+    <!-- Footer -->
+    <footer>
+        <div class="left">
+            <img src="./logo.png" alt="logo">
+            <h2>KIIT<br>ROBOTICS<br>SOCIETY</h2>
+        </div>
+        <div class="menus">
+            <div class="menu">
+                <h3>Site Map</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="">Contact</a></li>
+
+                </ul>
+            </div>
+            <div class="menu">
+                <h3>Social Links</h3>
+                <ul>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Linkedin</a></li>
+                    <li><a href="">Twitter</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    <script src="login.js"></script>
+
+
+</body>
+
+</html>

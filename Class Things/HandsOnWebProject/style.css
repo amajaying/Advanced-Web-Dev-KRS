@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Styling Nav Bar */
+
+nav {
+    padding: 0 10%;
+    height: 75px;
+    background-color: #181e25;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.nav-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.login {
+    background-color: rgb(0, 116, 56);
+    color: white;
+}
+
+.register {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.nav-btns a {
+    color: white;
+}
+
+
+/* Container 1 starts */
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero {
+    /* color: white !important; */
+    /* background: url(https://www.codemotion.com/magazine/wp-content/uploads/2020/07/Coding_da_Vinci_-_Der_Kultur-Hackathon_14120400612-896x504.jpg) rgba(0, 115, 255, 0.795); */
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.top-link {
+    background-color: #4094ec;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.hero h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+.hero p {
+    width: 800px;
+    text-align: center;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.see {
+    background-color: #4094ec;
+    color: white;
+}
+
+.visit {
+    background-color: transparent;
+    border: 1px solid #3d3d3d;
+}
+
+.visit a {
+    color: #3d3d3d;
+}
+
+.sym {
+    font-size: 20px;
+}
+
+.about {
+    display: flex;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    gap: 80px;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.info ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+.info ul li {
+    font-size: 18px;
+}
+
+.about h2 {
+    font-size: 40px;
+    color: #4094ec;
+}
+
+.about img {
+    border-radius: 5px;
+}
+
+.discord {
+    width: 220px;
+    background-color: #4094ec;
+}
+
+.discord a {
+    color: white;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    overflow: auto;
+    padding-top: 100px;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    align-items: center;
+}
+
+.modal .head {
+    display: flex;
+    width: 84%;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.modal h1 {
+    font-size: 40px;
+    color: #4094ec;
+}
+
+.modal .close {
+    font-size: 50px;
+    float: right;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    height: auto;
+    border: 1px solid #3d3d3d;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.course h2 {
+    font-size: 25px;
+    color: #3d3d3d;
+}
+
+.course p {
+    font-size: 18px;
+    color: #3d3d3d;
+}
+
+.course button {
+    background-color: #4094ec;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.course a {
+    color: white;
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
+
+/* Footer Starts */
+
+footer {
+    /* height: 60vh; */
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 80px auto;
+    /* margin-top: 80px; */
+}
+
+footer .menus {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h3 {
+    font-size: 22px;
+    color: #4094ec;
+}
+
+footer a {
+    color: #3d3d3d;
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+}
+
+footer .left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.left h2 {
+    font-size: 40px;
+    line-height: 120%;
+}
