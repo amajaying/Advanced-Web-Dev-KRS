@@ -99,12 +99,12 @@ main {
 }
 
 main h2 {
-    font-size: 70px;
+    font-size: 4.375rem;
     font-weight: 400;
 }
 
 main p {
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 main a {
@@ -151,10 +151,11 @@ main a {
 
 .foods {
     display: flex;
+    flex-wrap: wrap;
     width: 80%;
     margin: 0 auto;
     gap: 30px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .food {
@@ -202,7 +203,7 @@ main a {
 
 .right h2 {
     font-weight: 400;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 130%;
 }
 
@@ -224,7 +225,7 @@ main a {
 
 select {
     border: none;
-    font-size: 16px;
+    font-size: 1rem;
     color: #60BA62;
     width: 350px;
 }
@@ -244,7 +245,7 @@ select {
     display: flex;
     gap: 30px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .program {
@@ -288,7 +289,7 @@ select {
 }
 
 .subscription h1 {
-    font-size: 60px;
+    font-size: 3.75rem;
 }
 
 .subscription .rate {
