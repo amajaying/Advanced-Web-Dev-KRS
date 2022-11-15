@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Land - Home</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            background-color: #1f1f1f;
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+            color: white;
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            margin: 0 auto;
+            height: 80vh;
+        }
+        
+        nav {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .menu {
+            display: flex;
+            width: 70%;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 16px;
+        }
+        
+        .menu a:last-child {
+            width: 80px !important;
+            text-align: center;
+            padding: 15px 30px;
+            border: 1px solid white;
+        }
+        
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 50px;
+            margin-top: 100px;
+        }
+        
+        main h1 {
+            text-align: center;
+            font-size: 80px;
+        }
+        
+        main p {
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 80px;
+        }
+        
+        .buttons a {
+            padding: 15px 30px;
+            font-size: 18px;
+        }
+        
+        .free a {
+            background-color: rgb(50, 50, 255);
+        }
+        
+        .outline a {
+            border: 1px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <nav>
+            <img src="download.png" alt="logo">
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Product</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Login</a>
+            </div>
+        </nav>
+
+        <main>
+            <h1>Work at the speed<br>of thought</h1>
+            <p>Most calendars are designed for teams. Slate is<br>designed for freelancers who want a simple way to<br>plan their schedule.</p>
+
+            <div class="buttons">
+                <div class="button free">
+                    <a href="#">Try for Free</a>
+                </div>
+                <div class="button outline">
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </main>
+    </section>
+</body>
+
+</html>
