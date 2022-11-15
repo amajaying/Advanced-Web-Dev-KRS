@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hands-on-Project</title>
+</head>
+
+<body>
+    <a id="home"></a>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="KRS-LOGO" height="50px">
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="nav-btns">
+            <button class="btn login"><a href="login.html">Log In</a></button>
+            <button class="btn register"><a href="register.html">Register</a></button>
+        </div>
+    </nav>
+
+    <!-- Register Form -->
+    <section class="register-page">
+        <form id="myForm">
+            <div class="register-box">
+                <h2>Registration Form</h2>
+                <br>
+                <div>
+                    <label for="name">Name</label><br>
+                    <input type="text" name="username" id="name" placeholder="Enter name here">
+                    <div class="error" id="usernameErr"></div><br>
+                </div>
+                <br>
+                <div>
+                    <label for="phone">Phone</label><br>
+                    <input type="number" name="phone" id="phone" placeholder="Enter phone no. here">
+                    <div class="error" id="phoneErr"></div><br>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="Enter phone no. here">
+                    <div class="error" id="emailErr"></div><br>
+                </div>
+                <br>
+                <div>
+                    <p>Gender</p><br>
+                    <div class="gender-options">
+                        <input type="radio" name="gender" id="gender1">
+                        <label for="gender1">Male</label>
+                        <input type="radio" name="gender" id="gender2">
+                        <label for="gender2">Female</label>
+                        <div class="error" id="genderErr"></div><br>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <p>Qualification</p><br>
+                    <div class="quali-options">
+                        <input type="radio" name="quali" id="quali1">
+                        <label for="quali1">Student</label>
+                        <input type="radio" name="quali" id="quali2">
+                        <label for="quali2">Teacher</label>
+                        <div class="error" id="qualiErr"></div><br>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <p>Course</p><br>
+                    <div class="course-options">
+                        <input type="radio" name="course" id="course1">
+                        <label for="course1">Web Development</label>
+                        <input type="radio" name="course" id="course2">
+                        <label for="course2">App Development</label>
+                        <div class="error" id="courseErr"></div><br>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <label for="country">Country</label><br>
+                    <select name="country" id="country">
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Australia">Australia</option>
+                    </select>
+                    <div class="error" id="countryErr"></div>
+                </div>
+                <br>
+                <div>
+                    <label for="conditions">Conditions</label><br>
+                    <ol>
+                        <li>Each user shall only register once.
+                        </li>
+                        <li>
+                            It is the user's responsibility to make sure that she/he has sufficient access to internet to participate to the activities at the desired extent.
+                        </li>
+                    </ol>
+                    <input type="checkbox" name="conditions" id="conditions">
+                    <label for="conditions">I have read and agreed to all conditions</label>
+                </div>
+                <br>
+                <div>
+                    <label for="comments">Comments</label><br>
+                    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                </div>
+                <br>
+                <div class="buttons">
+                    <div class="button">
+                        <button type="button" class="btn register">Register</button>
+                    </div>
+                    <div class="button">
+                        <button type="button" class="btn reset">Clear</button>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </section>
+
+    <hr>
+    <!-- Footer -->
+    <footer>
+        <div class="left">
+            <img src="./logo.png" alt="logo">
+            <h2>KIIT<br>ROBOTICS<br>SOCIETY</h2>
+        </div>
+        <div class="menus">
+            <div class="menu">
+                <h3>Site Map</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="">Contact</a></li>
+
+                </ul>
+            </div>
+            <div class="menu">
+                <h3>Social Links</h3>
+                <ul>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Linkedin</a></li>
+                    <li><a href="">Twitter</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="index.js">
+    </script>
+</body>
+
+</html>
