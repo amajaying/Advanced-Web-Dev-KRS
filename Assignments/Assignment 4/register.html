@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hands-on-Project</title>
+    <link rel="stylesheet" href="register-style.css">
 </head>
 
 <body>
@@ -27,35 +28,39 @@
 
     <!-- Register Form -->
     <section class="register-page">
-        <form id="myForm">
+        <form name="myForm">
             <div class="register-box">
                 <h2>Registration Form</h2>
                 <br>
                 <div>
                     <label for="name">Name</label><br>
-                    <input type="text" name="username" id="name" placeholder="Enter name here">
+                    <input class="txtbx" type="text" name="username" id="name" placeholder="Enter name here">
                     <div class="error" id="usernameErr"></div><br>
                 </div>
                 <br>
                 <div>
                     <label for="phone">Phone</label><br>
-                    <input type="number" name="phone" id="phone" placeholder="Enter phone no. here">
+                    <input class="txtbx" type="number" name="phone" id="phone" placeholder="Enter phone no. here">
                     <div class="error" id="phoneErr"></div><br>
                 </div>
                 <br>
                 <div>
                     <label for="email">Email</label><br>
-                    <input type="email" name="email" id="email" placeholder="Enter phone no. here">
+                    <input class="txtbx" type="email" name="email" id="email" placeholder="Enter email here">
                     <div class="error" id="emailErr"></div><br>
                 </div>
                 <br>
                 <div>
                     <p>Gender</p><br>
                     <div class="gender-options">
-                        <input type="radio" name="gender" id="gender1">
-                        <label for="gender1">Male</label>
-                        <input type="radio" name="gender" id="gender2">
-                        <label for="gender2">Female</label>
+                        <div>
+                            <input type="radio" name="gender" id="gender1">&nbsp;&nbsp;
+                            <label for="gender1">Male</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="gender" id="gender2">&nbsp;&nbsp;
+                            <label for="gender2">Female</label>
+                        </div>
                         <div class="error" id="genderErr"></div><br>
                     </div>
                 </div>
@@ -63,10 +68,14 @@
                 <div>
                     <p>Qualification</p><br>
                     <div class="quali-options">
-                        <input type="radio" name="quali" id="quali1">
-                        <label for="quali1">Student</label>
-                        <input type="radio" name="quali" id="quali2">
-                        <label for="quali2">Teacher</label>
+                        <div>
+                            <input type="radio" name="quali" id="quali1">&nbsp;&nbsp;
+                            <label for="quali1">Student</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="quali" id="quali2">&nbsp;&nbsp;
+                            <label for="quali2">Teacher</label>
+                        </div>
                         <div class="error" id="qualiErr"></div><br>
                     </div>
                 </div>
@@ -74,17 +83,21 @@
                 <div>
                     <p>Course</p><br>
                     <div class="course-options">
-                        <input type="radio" name="course" id="course1">
-                        <label for="course1">Web Development</label>
-                        <input type="radio" name="course" id="course2">
-                        <label for="course2">App Development</label>
+                        <div>
+                            <input type="radio" name="course" id="course1">&nbsp;&nbsp;
+                            <label for="course1">Web Development</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="course" id="course2">&nbsp;&nbsp;
+                            <label for="course2">App Development</label>
+                        </div>
                         <div class="error" id="courseErr"></div><br>
                     </div>
                 </div>
                 <br>
                 <div>
                     <label for="country">Country</label><br>
-                    <select name="country" id="country">
+                    <select name="country" class="country-options">
                         <option value="India">India</option>
                         <option value="USA">USA</option>
                         <option value="UK">UK</option>
@@ -96,28 +109,29 @@
                 <br>
                 <div>
                     <label for="conditions">Conditions</label><br>
-                    <ol>
+                    <ol class="conditions" type="1">
                         <li>Each user shall only register once.
                         </li>
                         <li>
                             It is the user's responsibility to make sure that she/he has sufficient access to internet to participate to the activities at the desired extent.
                         </li>
                     </ol>
-                    <input type="checkbox" name="conditions" id="conditions">
-                    <label for="conditions">I have read and agreed to all conditions</label>
+                    <input type="checkbox" name="condition-check" id="condition-check">
+                    <label for="conditions" class="agree">I have read and agreed to all conditions</label>
+                    <div class="error" id="conditionsErr"></div>
                 </div>
                 <br>
                 <div>
                     <label for="comments">Comments</label><br>
-                    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                    <textarea name="comments" id="comments" cols="70" rows="5"></textarea>
                 </div>
                 <br>
                 <div class="buttons">
                     <div class="button">
-                        <button type="button" class="btn register">Register</button>
+                        <button type="button" class="btn registered" id="register">Register</button>
                     </div>
                     <div class="button">
-                        <button type="button" class="btn reset">Clear</button>
+                        <button type="button" class="btn reset" id="clear">Clear</button>
                     </div>
                 </div>
             </div>
@@ -157,7 +171,7 @@
     </footer>
 
 
-    <script src="index.js">
+    <script src="register.js">
     </script>
 </body>
 
