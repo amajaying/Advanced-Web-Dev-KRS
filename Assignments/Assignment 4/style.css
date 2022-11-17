@@ -76,14 +76,19 @@ button {
 
 /* Container 1 starts */
 
+.grad {
+    font-size: 70px;
+    background: -webkit-linear-gradient(130deg, rgba(63, 94, 251, 1) 20%, rgba(48, 203, 243, 1) 130%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 hr {
     width: 80%;
     margin: 0 auto;
 }
 
 .hero {
-    /* color: white !important; */
-    /* background: url(https://www.codemotion.com/magazine/wp-content/uploads/2020/07/Coding_da_Vinci_-_Der_Kultur-Hackathon_14120400612-896x504.jpg) rgba(0, 115, 255, 0.795); */
     background-size: cover;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
