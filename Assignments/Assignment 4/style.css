@@ -15,9 +15,17 @@ a {
 /* Styling Nav Bar */
 
 nav {
-    padding: 0 10%;
-    height: 75px;
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #181e25;
+}
+
+.navi {
+    /* padding: 0 10%; */
+    width: 80%;
+    height: 75px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
