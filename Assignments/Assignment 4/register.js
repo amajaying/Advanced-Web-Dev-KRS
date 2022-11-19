@@ -93,8 +93,8 @@ function validateForm() {
     }
 
     var country = document.forms["myForm"]["country"].value;
-    if (country == "") {
-        seterror("countryErr", "*Choose atleast one option");
+    if (country == "Select") {
+        seterror("countryErr", "*Choose country");
         returnVal = false;
     }
 
