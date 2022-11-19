@@ -21,7 +21,7 @@
 # .length 
 - length of a word, array or anything haha ;)
 
-# document.getElementById("p1-name").textContent
+<h2>document.getElementById("p1-name").textContent</h2>
 - extracts the text content of the given id
 
 # document.title = "Amajaying"
