@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript | fetch() Method</title>
+</head>
+
+<body>
+    <script>
+        var user = {
+            name: "Ajay",
+            age: "20",
+        };
+
+
+
+        let fetchRes = fetch("http://dummy.restapiexample.com/api/v1/create", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json;charset=utf-8",
+            },
+            body: JSON.stringify(user),
+        });
+
+        fetchRes
+            .then((res) => res.json())
+            .then((d) => {
+                console.log(d);
+            });
+    </script>
+</body>
+
+</html>
