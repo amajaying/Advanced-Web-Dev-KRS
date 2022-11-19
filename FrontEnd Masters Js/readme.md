@@ -18,16 +18,16 @@
 - getElementByTagName("h1");
 - querySelectorAll(".class or #id");
 
-# .length 
+<h2>.length</h2>
 - length of a word, array or anything haha ;)
 
 <h2>document.getElementById("p1-name").textContent</h2>
 - extracts the text content of the given id
 
-# document.title = "Amajaying"
+<h2>document.title = "Amajaying"</h2>
 - accesses and changes the Page Title to Amajaying
 
-# document.getElementById("p1-name").append(" & friends")
+<h2>document.getElementById("p1-name").append(" & friends")</h2>
 - add "& friends" to the text in p1-name
 
 
