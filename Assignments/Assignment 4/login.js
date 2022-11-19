@@ -54,3 +54,12 @@ function validate() {
     return returnVal;
 
 }
+
+// API for get requests
+let fetchRes = fetch(
+    "https://jsonplaceholder.typicode.com/todos/7");
+// fetchRes is the promise to resolve it by using.then() method
+fetchRes.then(res => // short handed function
+    res.json()).then(d => {
+    console.log(res)
+})
