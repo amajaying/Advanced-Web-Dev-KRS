@@ -9,7 +9,9 @@ btn.onclick = function() {
     var x = validateForm();
 
     if (x) {
+        1
         alert("Thanks for registering!");
+
     }
 }
 
