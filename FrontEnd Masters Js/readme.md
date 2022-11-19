@@ -1,62 +1,12 @@
 # Contents
-- <a href="#end">DOM & datatypes</a>
-- Arrays & Objects
-- Tic Tac Toe [Project]
+- <a href="#">DOM & datatypes</a>
+- <a href="#">Arrays & Objects</a>
+- <a href="#">Tic Tac Toe [Project]</a>
 
-- Function & Events
-- Branches & Loops
-- Quiz Game [Project]
+- <a href="#">Function & Events</a>
+- <a href="#">Branches & Loops</a>
+- <a href="#">Quiz Game [Project]</a>
 
-- Fetching Data
-- Real World Js <i>(exploring)</i>
-- Doggos [Project]
-
-
-
-
-- Arrays & Objects
-- Tic Tac Toe [Project]
-
-- Function & Events
-- Branches & Loops
-- Quiz Game [Project]
-
-- Fetching Data
-- Real World Js <i>(exploring)</i>
-- Doggos [Project]
-
-
-- Arrays & Objects
-- Tic Tac Toe [Project]
-
-- Function & Events
-- Branches & Loops
-- Quiz Game [Project]
-
-- Fetching Data
-- Real World Js <i>(exploring)</i>
-- Doggos [Project]
-
-- Arrays & Objects
-- Tic Tac Toe [Project]
-
-- Function & Events
-- Branches & Loops
-- Quiz Game [Project]
-
-- Fetching Data
-- Real World Js <i>(exploring)</i>
-- Doggos [Project]
-
-- Arrays & Objects
-- Tic Tac Toe [Project]
-
-- Function & Events
-- Branches & Loops
-- Quiz Game [Project]
-
-- Fetching Data
-- Real World Js <i>(exploring)</i>
-- Doggos [Project]
-
-<a name = "end"></a>
+- <a href="#">Fetching Data</a>
+- <a href="#">Real World Js <i>(exploring)</i></a>
+- <a href="#">Doggos [Project]</a>
