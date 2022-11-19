@@ -32,4 +32,9 @@
 
 
 # 1.2 - Data Types
+JS has 2 kinds of data:
 
+``
+1. Primitive types (Eg: strings, numbers)
+2. Objects (Eg: document & friends)
+``
