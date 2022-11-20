@@ -33,8 +33,25 @@
 
 # 1.2 - Data Types
 JS has 2 kinds of data:
-
-``
 1. Primitive types (Eg: strings, numbers)
 2. Objects (Eg: document & friends)
-``
+
+# 2.1 - Arrays & Strings
+- "AJAY".indexOf("J");
+- "AJAY".includes("AJ");
+- "AJAY".startsWith("A");
+- "AJAY".endsWith("Y");
+
+- Concatenate strings together
+  "AJAY" + "!" = "AJAY!"
+
+- "AJAY".toLowerCase()
+
+# 2.2 - Operators
+- +, -, *, /, (), ** [Exponentiation], %
+- typeof
+- >, <, >=, <=
+- ===, ==
+- !==, !=
+- &&, ++
+
