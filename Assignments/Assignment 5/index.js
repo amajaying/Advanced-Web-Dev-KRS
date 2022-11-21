@@ -4,6 +4,10 @@ var options = document.getElementById("gender-dropdown");
 var gender = document.getElementById("gender-select");
 var arrow = document.getElementById("arrow");
 var count = 0;
+
+var smsg = document.querySelector("#success");
+
+
 gender.onclick = function() {
     if (count == 0) {
         options.style.display = "block";
@@ -22,6 +26,9 @@ window.onclick = function(event) {
         count = 0;
     }
 }
+
+
+
 var genderSel = document.querySelector("#selected-gen");
 
 var option1 = document.getElementById("option-1");
@@ -56,9 +63,24 @@ function getAvatar() {
     var gender = document.querySelector("#selected-gen").innerHTML;
     var gen = gender.toLowerCase();
     var imgUrl = "https://joeschmoe.io/api/v1/";
-    var url = imgUrl + gen + "/" + username;
+    if (gen != "others") { var url = imgUrl + gen + "/" + username; } else {
+        var url = imgUrl + "random";
+    }
 
     document.querySelector("#avatar-img").src = url;
+
+    //set interval
+    var interval = setInterval(function() {
+        smsg.style.display = "block";
+    }, 2000);
+
+    //clear interval
+    setTimeout(function() {
+        clearInterval(interval);
+        smsg.style.display = "none";
+    }, 5000);
+
+
 
     // let p = fetch(`https://joeschmoe.io/api/v1/${gen}/${username}`)
     //     .then(response => response.json())
