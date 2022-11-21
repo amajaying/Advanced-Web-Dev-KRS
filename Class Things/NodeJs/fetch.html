@@ -16,7 +16,7 @@
 
 
 
-        let fetchRes = fetch("http://dummy.restapiexample.com/api/v1/create", {
+        let fetchRes = fetch("http://localhost:80/post", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json;charset=utf-8",
@@ -27,7 +27,6 @@
         fetchRes
             .then((res) => res.json())
             .then((d) => {
-                1
                 console.log(d);
             });
     </script>

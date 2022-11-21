@@ -55,3 +55,18 @@ JS has 2 kinds of data:
 - !==, !=
 - &&, ++
 
+# 2.3 - Declaring a variable
+- let
+- const
+- var
+
+# 2.4 - Useful Array Methods
+- .length
+- indexOf("")
+- .pop()
+- .push()
+- .sort()
+- .concat()  merge two arrays
+- .join()  ["lions","tigers","bears oh my!"].join(" & ")
+
+<b>Arrays are mutable but strings are not</b>

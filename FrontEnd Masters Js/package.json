@@ -1,0 +1,15 @@
+{
+    "name": "frontend-masters-js",
+    "version": "1.0.0",
+    "description": "1 - <a href=\"#\">DOM & datatypes</a><br>\r 2 - <a href=\"#\">Arrays & Objects</a><br>\r 3 - <a href=\"#\">Tic Tac Toe [Project]</a><br>",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "nodemon": "^2.0.20"
+    }
+}

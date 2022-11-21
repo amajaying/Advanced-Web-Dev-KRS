@@ -8,8 +8,6 @@ btn.onclick = function() {
     }
 }
 
-
-
 function seterror(id, error) {
 
     document.getElementById(id).innerHTML = error;

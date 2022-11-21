@@ -1,8 +1,16 @@
 {
-    "dependencies": {
-        "nodemon": "^2.0.20"
-    },
-    "scripts": {
-        "start": "nodemon json.js"
-    }
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "nodemon json.js"
+  },
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "json.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
