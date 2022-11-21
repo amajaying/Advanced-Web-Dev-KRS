@@ -1,3 +1,5 @@
+// const { response } = require("express");
+
 var options = document.getElementById("gender-dropdown");
 var gender = document.getElementById("gender-select");
 var arrow = document.getElementById("arrow");
@@ -53,6 +55,10 @@ function getAvatar() {
 
     var gender = document.querySelector("#selected-gen").innerHTML;
     var gen = gender.toLowerCase();
+    var imgUrl = "https://joeschmoe.io/api/v1/";
+    var url = imgUrl + gen + "/" + username;
+
+    document.querySelector("#avatar-img").src = url;
 
     // let p = fetch(`https://joeschmoe.io/api/v1/${gen}/${username}`)
     //     .then(response => response.json())
@@ -62,19 +68,24 @@ function getAvatar() {
     //     })
 
 
-    const url = "https://joeschmoe.io/api/v1/" + gen + "/" + username;
+    // const url = "https://cors-anywhere.herokuapp.com/https://joeschmoe.io/api/v1/" + gen + "/" + username;
+    // const url = "https://joeschmoe.io/api/v1/" + gen + "/" + username;
     // const url = "https://dog.ceo/api/breeds/image/random";
-    var headers = {};
+    // var headers = {};
 
-    fetch(url, {
-            method: 'GET',
-            mode: 'cors',
-            headers: headers
-        })
-        .then(response => response.json())
-        .then(data => {
-            console.log(data);
-            document.querySelector("#avatar-img").src = data;
-        })
+    // fetch(url, {
+    //         method: 'GET',
+    //         mode: 'cors',
+    //         headers: headers
+    //     })
+    //     // .then(response => response.json())
+    //     .then(data => {
+    //         console.log(data);
+    //         // document.querySelector("#avatar-img").src = data.message;
+    //         // const imgSrc = response.toDataURL("image/png");
+    //         // console.log(imgSrc);
+    //         // document.querySelector("#avatar-img").src = data.url;
 
+    //         document.querySelector("#avatar-div").innerHTML = data;
+    //     })
 }
