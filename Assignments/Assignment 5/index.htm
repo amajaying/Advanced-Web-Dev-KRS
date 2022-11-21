@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="glass-box">
+            <div>
+                <p class="title">
+                    What does your Name say about your<br>PERSONALITY?
+                </p>
+            </div>
+            <div class="textboxes">
+                <div>
+                    <input class="textbox" type="text" name="name" id="name" placeholder="Name" autocomplete="off" required>
+                </div>
+                <div class="input-section ">
+                    <div id="gender-select" class="gender-select">
+
+                        <p class="selected" id="selected-gen">Male</p>
+                        <img class="arrow" id="arrow" src="https://joeschmoe-io.pages.dev/Img/arrow.png " alt="arrow " height="20px ">
+
+                        <ul class="options hide" id="gender-dropdown">
+                            <li id="option-1">
+                                <img src="https://joeschmoe-io.pages.dev/Img/boy.gif " alt="male ">
+                                <p>Male</p>
+                            </li>
+                            <li id="option-2">
+                                <img src="https://joeschmoe-io.pages.dev/Img/girlG.gif " alt="female ">
+                                <p>Female</p>
+                            </li>
+                            <li id="option-3">
+                                <img src="https://img.freepik.com/free-vector/blue-gender-symbol-other-gender_277625-1823.jpg " alt="others ">
+                                <p>Others</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="avatar">
+                <img id="avatar-img" src="https://joeschmoe.io/api/v1/male/ajay" alt="avatar ">
+            </div>
+
+            <span class="btn" id="button">
+                <svg id="svgTag">
+                    <linearGradient id="grad1">
+                        <stop offset="0%" stop-color="#FF8282"></stop>
+                        <stop offset="100%" stop-color="#E178ED"></stop>
+                    </linearGradient>
+                    
+                <rect x="5" y="5" rx="20" fill="none" stroke="url(#grad1)" width="150" height="40"></rect>
+                </svg>
+                <span>See</span>
+            </span>
+        </div>
+
+        <div class="circle-1 "></div>
+        <div class="circle-2 "></div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
