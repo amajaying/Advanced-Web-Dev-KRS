@@ -43,6 +43,7 @@ body {
     height: 80vh;
     padding: 25px;
     backdrop-filter: blur(15px);
+    margin: auto;
 }
 
 .title {
@@ -213,6 +214,7 @@ li:hover {
     }
     .glass-box {
         width: 60vw;
+        margin: auto;
         height: 85vh;
     }
     ul {
@@ -247,6 +249,7 @@ li:hover {
     }
     .glass-box {
         width: 100%;
+        margin: auto;
     }
     .success {
         font-size: 0.8rem;
