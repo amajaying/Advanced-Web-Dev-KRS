@@ -1,14 +1,9 @@
-import './App.css';
-
 function App() {
-    return ( <
-        div className = "App" >
-        <
-        header className = "App-header" >
-        <
-        h1 > Hi, I 'm amajaying!</h1> < /
-        header > <
-        /div>
+    return (
+        <div className="">
+            <p className="text-red-500 font-bold bg-gray-200">hello guys</p>
+        </div>
+
     );
 }
 
